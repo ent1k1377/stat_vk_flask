@@ -13,7 +13,7 @@ def auth_handler():
 
 
 def main():
-    login, password = '89116197590', 'xleb2002dancha'
+    login, password = 'number', 'password'
     vk_session = vk_api.VkApi(
         login, password,
         auth_handler=auth_handler
